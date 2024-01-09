@@ -20,6 +20,7 @@ public class C02Maps {
 
         //How to work with just keys
         //Example 1: Get the total number of characters in student names.
+
         Set<String> keys = stdAges.keySet();
         System.out.println(keys);
 
@@ -30,6 +31,7 @@ public class C02Maps {
             numOfChars = numOfChars +w.length();
 
         }
+
 
         System.out.println(numOfChars);
 

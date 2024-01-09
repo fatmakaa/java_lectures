@@ -21,10 +21,14 @@ package day14constructors_oop;
 
 public class C01Students {
 
+
+    //variables
     public String stdName = "Tom Hanks";
     public int stdAge = 13;
-   private String stdId = "TH2010001";
+    private String stdId = "TH2010001";
 
+
+    //methods
     public void study(){
         System.out.println("Study well...");
     }
@@ -33,11 +37,13 @@ public class C01Students {
         System.out.println("Sport is good for health...");
     }
 
+
     //Create a constructor manually
     public C01Students(){
 
     }
 
+    //To make the constructor more dynamic, not just what we have
     public C01Students (String stdName, int stdAge, String stdId){
 
         this.stdName = stdName;
@@ -54,7 +60,15 @@ public class C01Students {
 
 
 
+    }
 
 
+    @Override
+    public String toString() {
+        return "C01Students{" +
+                "stdName='" + stdName + '\'' +
+                ", stdAge=" + stdAge +
+                ", stdId='" + stdId + '\'' +
+                '}';
     }
 }
