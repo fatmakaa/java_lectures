@@ -1,9 +1,8 @@
 package Practices.d01;
 
-import java.math.MathContext;
 import java.util.Scanner;
 
-public class p03 {
+public class Q03_Scanner {
     public static void main(String[] args) {
 
 

@@ -1,9 +1,6 @@
 package Practices.d01;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class p05 {
+public class Q05_Arrays {
     public static void main(String[] args) {
 
 
@@ -11,17 +8,15 @@ public class p05 {
         // find the sum of the number of the characters in all Strings.
 
 
-       String[] countries = {"Turkey", "United States", "Sweden","Japan", "Russia"};
+        String[] countries = {"Türkiye","US","Sweden","Finland","Morocco"};
 
-       int sum = 0;
-
-
+        int sum=0;
         for (String w :countries) {
-           sum += w.length();
+            sum = sum+w.length();
 
         }
-        System.out.println(sum);
 
+        System.out.println(sum);
 
     }
 }

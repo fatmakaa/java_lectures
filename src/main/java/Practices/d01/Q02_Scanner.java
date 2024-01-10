@@ -2,7 +2,7 @@ package Practices.d01;
 
 import java.util.Scanner;
 
-public class p02 {
+public class Q02_Scanner {
 
     public static void main(String[] args) {
 
