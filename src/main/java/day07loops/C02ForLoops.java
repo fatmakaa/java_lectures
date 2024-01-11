@@ -29,11 +29,10 @@ public class C02ForLoops {
        int num = 123;
        int sumOfD = 0;
 
-        for (int i =num; 0<i ; i=i/10) {
+        for (int i = num; 0<i ; i=i/10) {
             sumOfD = sumOfD + i%10;
         }
         System.out.println(sumOfD);
-
 
 
 
@@ -58,8 +57,6 @@ public class C02ForLoops {
 
         }
         System.out.println(unique);
-
-
 
 
 

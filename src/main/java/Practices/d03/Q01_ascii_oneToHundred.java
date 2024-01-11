@@ -1,6 +1,6 @@
 package Practices.d03;
 
-public class p01_ascii_oneToHundred {
+public class Q01_ascii_oneToHundred {
 
     //Print on the console numbers from 1 to 100.
     //  But do not use any number in your code

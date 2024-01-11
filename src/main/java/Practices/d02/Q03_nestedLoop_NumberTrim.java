@@ -2,7 +2,7 @@ package Practices.d02;
 
 import java.util.Scanner;
 
-public class p03_nestedLoop_NumberTrim {
+public class Q03_nestedLoop_NumberTrim {
     /*
 
    Type code to ask user to enter the number of rows and print the

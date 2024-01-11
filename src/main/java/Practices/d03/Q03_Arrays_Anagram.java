@@ -2,7 +2,7 @@ package Practices.d03;
 
 import java.util.Arrays;
 
-public class p03_Arrays_Anagram {
+public class Q03_Arrays_Anagram {
     //Type code to check if two Strings are Anagram or not
     // Anagram: A word or phrase made by using the letters of another word/phrase in a different order.
     //        Ex:

@@ -2,7 +2,7 @@ package Practices.d03;
 
 import java.util.Scanner;
 
-public class p02_forLoop_perfectNum {
+public class Q02_forLoop_perfectNum {
 
     // Type code to ask user to enter an integer and check if it is 'Perfect Number' or not."
     //  A perfect number is a positive integer that is equal to the sum of all its proper divisors.

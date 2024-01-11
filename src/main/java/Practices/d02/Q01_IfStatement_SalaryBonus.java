@@ -16,7 +16,7 @@ package Practices.d02;
 
 import java.util.Scanner;
 
-public class p01IfStatement_SalaryBonus {
+public class Q01_IfStatement_SalaryBonus {
     public static void main(String[] args) {
 
 
@@ -25,11 +25,11 @@ public class p01IfStatement_SalaryBonus {
         int year =  scan.nextInt();
 
         System.out.println("Enter your salary");
-        double salary = scan.nextDouble();
+        double salary = scan.nextDouble();  //We make the double cuz when it was int, we were not able to get the mathematicaly the true answer that is was we made it double.
 
         if (year>=5){
-            //calculate the bonus
 
+            //calculate the bonus
            double bonus = salary*5/100;
             System.out.println("Bonus: " + bonus);
 

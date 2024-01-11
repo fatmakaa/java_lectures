@@ -3,7 +3,7 @@ package Practices.d03;
 import java.time.LocalTime;
 import java.util.Scanner;
 
-public class p04_DateTime_DiceSec {
+public class Q04_DateTime_DiceSec {
      static int playerDice;
      static int playerScore;
     //Write a method that rolls two dice and compares the result with the score of the computer
